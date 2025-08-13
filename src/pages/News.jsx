@@ -74,10 +74,11 @@ const News = () => {
       padding: isMobile ? '1rem' : '2rem',
       position: 'fixed',
       top: 0,
-      left: '170px',
+      left: isMobile ? '0' : '250px',
       right: 0,
       bottom: 0,
       overflowY: 'auto',
+      width: isMobile ? '100%' : 'calc(100% - 250px)',
     },
     backgroundSlide: {
       position: 'fixed',
