@@ -50,7 +50,7 @@ const Contacts = () => {
       padding: isMobile ? '1rem' : '2rem',
       position: 'fixed',
       top: 0,
-      left: '250px', // Adjust to match your sidebar width
+      left: '20px', // Adjust to match your sidebar width
       right: 0,
       bottom: 0,
       overflowY: 'auto',
