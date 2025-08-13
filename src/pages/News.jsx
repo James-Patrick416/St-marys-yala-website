@@ -74,7 +74,7 @@ const News = () => {
       padding: isMobile ? '1rem' : '2rem',
       position: 'fixed',
       top: 0,
-      left: '20px',
+      left: '170px',
       right: 0,
       bottom: 0,
       overflowY: 'auto',
